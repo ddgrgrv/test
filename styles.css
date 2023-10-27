@@ -68,7 +68,7 @@ nav ul li {
 
 .contact-btn {
     display: inline-block;
-    margin-top: 20px;
+    margin: 20px 0;
     padding: 10px 20px;
     font-size: 16px;
     color: white;
@@ -501,5 +501,27 @@ footer {
     }
     nav ul{
         padding-left: 0;
+    }
+
+    .product-details {
+        flex-direction: column;
+        margin: 0;
+    }
+    .about, .services, .cta{
+        padding: 0;
+    }
+}
+
+@media(max-width:596px){
+    .services-list{
+        flex-direction: column;
+    }
+
+    .services-list li {
+        margin-bottom: 10px;
+    } 
+    
+    .portfolio{
+        margin: 0;
     }
 }
