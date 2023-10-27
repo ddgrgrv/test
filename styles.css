@@ -184,6 +184,7 @@ footer {
     padding: 20px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact-info {
@@ -226,7 +227,7 @@ footer {
 }
 
 .product {
-    flex: 0 0 calc(33.3333% - 40px); /* Three columns with a little spacing between each */
+    flex: 0 0 calc(33.3333% - 40px); 
     margin: 20px;
     padding: 15px;
     border: 1px solid #ccc;
@@ -272,7 +273,6 @@ footer {
 }
 
 /* Portfolio styles */
-/* ... (existing styles) ... */
 
 .portfolio {
     display: flex;
@@ -311,6 +311,7 @@ footer {
     font-size: 14px;
     margin-bottom: 15px;
 }
+
 /* Cookie */
 .cookie-alert {
     background-color: #333;
@@ -476,4 +477,29 @@ footer {
     height: auto;
     margin-top: 20px;
     border-radius: 5px;
+}
+
+/* Map */
+.google-map iframe{
+    width: 600px;
+    height: 400px;
+}
+
+@media(max-width: 1000px){
+    /* Map */
+    .google-map iframe{
+        width: 90vw;
+        height: 100%;
+    }
+
+    .content {
+        justify-content: space-between;
+    }
+
+    .contact-info{
+        margin-bottom: 20px;
+    }
+    nav ul{
+        padding-left: 0;
+    }
 }
