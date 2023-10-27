@@ -149,6 +149,10 @@ footer {
     margin-bottom: 8px;
     font-weight: bold;
 }
+.privacyLink{
+    font-weight: bold;
+    color: black;
+}
 
 .contact-form input[type="text"],
 .contact-form input[type="email"],
@@ -197,10 +201,20 @@ footer {
     margin-bottom: 20px;
 }
 
-.contact-info a {
+.contact-form a {
     font-size: 18px;
     margin-bottom: 20px;
     color: black;
+}
+
+.contact-form form a {
+    color: #4caf50;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.contact-form form a:hover {
+    text-decoration: underline;
 }
 
 /* Services styles */
