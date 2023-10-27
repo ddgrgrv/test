@@ -149,8 +149,7 @@ footer {
     margin-bottom: 8px;
     font-weight: bold;
 }
-.privacyLink{
-    font-weight: bold;
+.contact-info a{
     color: black;
 }
 
@@ -216,6 +215,7 @@ footer {
 .contact-form form a:hover {
     text-decoration: underline;
 }
+
 
 /* Services styles */
 .product-details {
