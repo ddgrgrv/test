@@ -14,4 +14,4 @@ Responsive Design: The website is fully responsive, ensuring a seamless experien
 2. Open index.html in your preferred web browser.
 
 ## Deploy link
-https://ddgrgrv.github.io/test/html/portfolio.html
+https://ddgrgrv.github.io/test/index.html
